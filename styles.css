@@ -45,19 +45,24 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #d1b3ff, #c091ff);
     color: white;
-    text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end; /* Aligns content to the bottom */
+    padding-bottom: 10%; /* Adds some padding from the bottom */
+}
+
+#inicio .container {
+    margin-left: 5%; /* Adds left margin to push content slightly from the left edge */
 }
 
 #inicio h1 {
     font-size: 3.5rem;
     font-weight: bold;
+    text-align: left;
 }
 
 #inicio .lead {
     font-size: 1.5rem;
+    text-align: left;
 }
 
 /* Seção Sobre */
