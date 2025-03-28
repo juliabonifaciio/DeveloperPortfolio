@@ -80,6 +80,23 @@ body {
 }
 
 /* Seção Habilidades */
+#habilidades h2 {
+    color: var(--dark-purple);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#habilidades h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
 #habilidades {
     background-color: var(--light-color);
 }
@@ -104,6 +121,23 @@ body {
 }
 
 /* Seção Serviços */
+#servicos h2 {
+    color: var(--dark-purple);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#servicos h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
 .service-card {
     background-color: white;
     padding: 30px;
@@ -123,7 +157,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Projects Section Styles */
+/* Seção Projetos */
 #projetos {
     background-color: var(--light-color);
     padding: 60px 0;
@@ -206,7 +240,7 @@ body {
     border-radius: 5px;
 }
 
-/* Footer Styles */
+/* Seção Footer */
 footer {
     background-color: var(--dark-color);
     color: white;
@@ -283,7 +317,7 @@ footer .border-top {
     }
 }
 
-/* Section Entrance Animations */
+/* Animações */
 @keyframes fadeInUp {
     from {
         opacity: 0;
