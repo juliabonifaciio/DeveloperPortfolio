@@ -46,12 +46,12 @@ body {
     background: linear-gradient(135deg, #d1b3ff, #c091ff);
     color: white;
     display: flex;
-    align-items: flex-end; /* Aligns content to the bottom */
-    padding-bottom: 10%; /* Adds some padding from the bottom */
+    align-items: center; /* Centers vertically */
+    padding-left: 5%; /* Adds left padding to align content to the left */
 }
 
 #inicio .container {
-    margin-left: 5%; /* Adds left margin to push content slightly from the left edge */
+    max-width: 80%; /* Limits container width */
 }
 
 #inicio h1 {
@@ -309,10 +309,14 @@ footer .border-top {
         align-items: center;
     }
 
+    #inicio {
+        padding-left: 3%;
+    }
+    
     #inicio h1 {
         font-size: 2.5rem;
     }
-
+    
     #inicio .lead {
         font-size: 1.2rem;
     }
