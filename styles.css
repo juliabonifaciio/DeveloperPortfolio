@@ -2,11 +2,11 @@
 
 /* Cores no :root */
 :root {
-    --primary-color: #d1b3ff;     /* Light lilac */
-    --secondary-color: #e6d5ff;   /* Very light lilac */
-    --light-color: #f8f9fa;       /* Kept the same */
-    --dark-color: #343a40;        /* Kept the same */
-    --dark-purple: #2b1a44;       /* Dark purple */
+    --primary-color: #d1b3ff;    
+    --secondary-color: #e6d5ff;   
+    --light-color: #f8f9fa;       
+    --dark-color: #343a40;        
+    --dark-purple: #2b1a44;     
 }
 
 /* General Page Styles */
@@ -43,7 +43,7 @@ body {
 /* Seção Inicial */
 #inicio {
     height: 100vh;
-    background: linear-gradient(135deg, #d1b3ff, #c091ff);
+    background: linear-gradient(135deg, #d1b3ffa4, #3b1769);
     color: white;
     display: flex;
     align-items: center; /* Centers vertically */

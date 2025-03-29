@@ -9,6 +9,7 @@ Welcome to my personal portfolio! This website showcases my professional skills,
 - **[About](#sobre)**: A detailed section where I talk about my background, experiences, and journey.
 - **[Skills](#habilidades)**: Here, you can explore the technical and soft skills I have acquired throughout my career.
 - **[Services](#servicos)**: A description of the professional services I offer, including web development, design, and consulting.
+- **[Projects](#projetos)**: Explore alguns dos projetos mais significativos em que trabalhei, demonstrando minhas habilidades técnicas e criativas.
 - **[Contact](#contato)**: A section with information on how you can get in touch with me for any queries or collaborations.
 
 ## Technologies
