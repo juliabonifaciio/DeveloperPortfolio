@@ -43,7 +43,7 @@ body {
 /* Seção Inicial */
 #inicio {
     height: 100vh;
-    background: linear-gradient(135deg, #d1b3ffa4, #3b1769);
+    background: linear-gradient(135deg, #d1b3ff, #32135c);
     color: white;
     display: flex;
     align-items: center; /* Centers vertically */
